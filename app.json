@@ -19,7 +19,8 @@
       "buildNumber": "1",
       "icon": "./assets/icon.png",
       "infoPlist": {
-        "NSUserNotificationsUsageDescription": "Selah sends one verse per day at your chosen time."
+        "NSUserNotificationsUsageDescription": "Selah sends one verse per day at your chosen time.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
