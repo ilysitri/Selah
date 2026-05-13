@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selah — Be still, and know.</title>
+<meta name="description" content="A prayer and scripture companion built for women. Verse, prayer, and stillness — for the moments you actually reach for your phone.">
+<meta property="og:title" content="Selah">
+<meta property="og:description" content="Be still, and know.">
+<meta property="og:type" content="website">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400&display=swap');
+
+  :root {
+    --cream: #FAF8F5;
+    --accent: #C9A09A;
+    --accent-light: rgba(201, 160, 154, 0.12);
+    --text: #2A2A2A;
+    --text-muted: #888;
+    --text-faint: #BBAFA8;
+    --border: #E5E0D8;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+
+  /* ── Layout ── */
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 96px 28px 80px;
+  }
+
+  /* ── Header ── */
+  .header {
+    margin-bottom: 72px;
+    opacity: 0;
+    transform: translateY(16px);
+    animation: fadeUp 0.9s ease forwards;
+  }
+
+  .wordmark {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 72px;
+    font-weight: 300;
+    letter-spacing: -0.01em;
+    line-height: 1;
+    color: var(--text);
+    margin-bottom: 12px;
+  }
+
+  .tagline {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--text-muted);
+    letter-spacing: 0.01em;
+  }
+
+  /* ── Verse feature ── */
+  .verse-card {
+    background: white;
+    border-radius: 16px;
+    padding: 32px 28px;
+    margin-bottom: 56px;
+    border-left: 3px solid var(--accent);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.04);
+    opacity: 0;
+    transform: translateY(16px);
+    animation: fadeUp 0.9s ease 0.15s forwards;
+  }
+
+  .verse-label {
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--accent);
+    margin-bottom: 16px;
+  }
+
+  .verse-text {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: var(--text);
+    margin-bottom: 16px;
+  }
+
+  .verse-ref {
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+  }
+
+  .verse-divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 20px 0;
+  }
+
+  .verse-reflection {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  /* ── Description ── */
+  .description {
+    font-size: 16px;
+    font-weight: 300;
+    color: #555;
+    max-width: 480px;
+    margin-bottom: 56px;
+    line-height: 1.75;
+    opacity: 0;
+    transform: translateY(16px);
+    animation: fadeUp 0.9s ease 0.25s forwards;
+  }
+
+  /* ── Feature pills ── */
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 64px;
+    opacity: 0;
+    transform: translateY(16px);
+    animation: fadeUp 0.9s ease 0.32s forwards;
+  }
+
+  .pill {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+
+  /* ── App Store CTA ── */
+  .cta-section {
+    margin-bottom: 64px;
+    opacity: 0;
+    transform: translateY(16px);
+    animation: fadeUp 0.9s ease 0.38s forwards;
+  }
+
+  .section-label {
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--accent);
+    margin-bottom: 16px;
+  }
+
+  .app-store-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--text);
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 13px 22px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    border-bottom: none;
+  }
+
+  .app-store-btn:hover {
+    opacity: 0.82;
+    transform: translateY(-1px);
+    color: white;
+  }
+
+  .app-store-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+    flex-shrink: 0;
+  }
+
+  .app-store-sub {
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--text-faint);
+  }
+
+  /* ── Links section ── */
+  .links-section {
+    margin-bottom: 48px;
+    opacity: 0;
+    transform: translateY(16px);
+    animation: fadeUp 0.9s ease 0.44s forwards;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+    font-weight: 300;
+    font-size: 15px;
+    transition: color 0.15s ease;
+  }
+
+  a:hover {
+    color: var(--accent);
+  }
+
+  /* ── Footer ── */
+  footer {
+    margin-top: 80px;
+    padding-top: 28px;
+    border-top: 1px solid var(--border);
+    color: var(--text-faint);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.7;
+    opacity: 0;
+    animation: fadeUp 0.9s ease 0.5s forwards;
+  }
+
+  .footer-selah {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  /* ── Animation ── */
+  @keyframes fadeUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* ── Mobile ── */
+  @media (max-width: 480px) {
+    .container { padding: 64px 20px 60px; }
+    .wordmark { font-size: 56px; }
+    .verse-text { font-size: 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header class="header">
+    <h1 class="wordmark">Selah</h1>
+    <p class="tagline">Be still, and know.</p>
+  </header>
+
+  <div class="verse-card">
+    <p class="verse-label">Today</p>
+    <p class="verse-text">"Fear not: for I have redeemed thee, I have called thee by thy name; thou art mine."</p>
+    <p class="verse-ref">Isaiah 43:1</p>
+    <hr class="verse-divider">
+    <p class="verse-reflection">What would it mean to live today as someone who belongs to God?</p>
+  </div>
+
+  <p class="description">
+    Selah is a prayer and scripture companion built for women — for the moments you actually reach for your phone. Mood-based verse discovery, a daily bite of scripture, guided spiritual paths, and a private space to trace your journey with God.
+  </p>
+
+  <div class="features">
+    <span class="pill">Mood-based verses</span>
+    <span class="pill">Daily scripture</span>
+    <span class="pill">Guided paths</span>
+    <span class="pill">Private traces</span>
+    <span class="pill">6 collections</span>
+    <span class="pill">Cycle-aware scripture</span>
+  </div>
+
+  <div class="cta-section">
+    <p class="section-label">Available on iOS</p>
+    <a href="#" class="app-store-btn">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+      </svg>
+      Download on the App Store
+    </a>
+    <p class="app-store-sub">Free to download · iOS 16+</p>
+  </div>
+
+  <div class="links-section">
+    <p class="section-label">Legal</p>
+    <ul>
+      <li><a href="terms.html">Terms of Service</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+    </ul>
+  </div>
+
+  <div class="links-section">
+    <p class="section-label">Contact</p>
+    <ul>
+      <li><a href="mailto:skogsmuset@gmail.com">skogsmuset@gmail.com</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    <span class="footer-selah">Selah</span>
+    Selah is a trading name of Evie Maxine ROSE, a sole trader registered in New Zealand.<br>
+    NZBN: 9429049441673.
+  </footer>
+
+</div>
+</body>
+</html>

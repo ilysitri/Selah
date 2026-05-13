@@ -1,0 +1,1805 @@
+[
+  {
+    "reference": "Psalm 4:8",
+    "text": "I will both lay me down in peace, and sleep: for thou, LORD, only makest me dwell in safety.",
+    "mood_tags": [
+      "anxious",
+      "restless",
+      "afraid"
+    ],
+    "tone": "settling",
+    "notes": "Excellent bedtime/insomnia verse. Stands fully alone.",
+    "collection": "rest-and-peace"
+  },
+  {
+    "reference": "Psalm 9:9",
+    "text": "The LORD also will be a refuge for the oppressed, a refuge in times of trouble.",
+    "mood_tags": [
+      "overwhelmed",
+      "afraid",
+      "abandoned"
+    ],
+    "tone": "sheltering",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 16:8",
+    "text": "I have set the LORD always before me: because he is at my right hand, I shall not be moved.",
+    "mood_tags": [
+      "anxious",
+      "afraid",
+      "overwhelmed"
+    ],
+    "tone": "steadying",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 18:2",
+    "text": "The LORD is my rock, and my fortress, and my deliverer; my God, my strength, in whom I will trust; my buckler, and the horn of my salvation, and my high tower.",
+    "mood_tags": [
+      "afraid",
+      "overwhelmed"
+    ],
+    "tone": "fortifying",
+    "notes": "Imagery (rock, fortress, tower) is intuitive without theological framing.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 23:1-3",
+    "text": "The LORD is my shepherd; I shall not want. He maketh me to lie down in green pastures: he leadeth me beside the still waters. He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake.",
+    "mood_tags": [
+      "exhausted",
+      "weary",
+      "restless",
+      "overwhelmed"
+    ],
+    "tone": "tender",
+    "notes": "The most universally accessible comfort passage. Pastoral imagery requires no context.",
+    "collection": "rest-and-peace"
+  },
+  {
+    "reference": "Psalm 23:4",
+    "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.",
+    "mood_tags": [
+      "afraid",
+      "grieving",
+      "despairing"
+    ],
+    "tone": "accompanying",
+    "notes": "Often turned to in grief and serious illness.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 27:1",
+    "text": "The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid?",
+    "mood_tags": [
+      "afraid",
+      "anxious"
+    ],
+    "tone": "emboldening",
+    "notes": null,
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Psalm 27:10",
+    "text": "When my father and my mother forsake me, then the LORD will take me up.",
+    "mood_tags": [
+      "abandoned",
+      "lonely",
+      "heartbroken"
+    ],
+    "tone": "reassuring",
+    "notes": "Particularly resonant for those with family estrangement or loss.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 27:14",
+    "text": "Wait on the LORD: be of good courage, and he shall strengthen thine heart: wait, I say, on the LORD.",
+    "mood_tags": [
+      "weary",
+      "exhausted",
+      "despairing"
+    ],
+    "tone": "encouraging",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 30:5",
+    "text": "For his anger endureth but a moment; in his favour is life: weeping may endure for a night, but joy cometh in the morning.",
+    "mood_tags": [
+      "grieving",
+      "despairing",
+      "heartbroken",
+      "weary"
+    ],
+    "tone": "hopeful",
+    "notes": "The 'weeping endures for a night' line is the comfort core; first clause about anger may need gentle framing for some users but the verse stands.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 31:24",
+    "text": "Be of good courage, and he shall strengthen your heart, all ye that hope in the LORD.",
+    "mood_tags": [
+      "weary",
+      "exhausted",
+      "despairing"
+    ],
+    "tone": "encouraging",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 32:7",
+    "text": "Thou art my hiding place; thou shalt preserve me from trouble; thou shalt compass me about with songs of deliverance.",
+    "mood_tags": [
+      "afraid",
+      "overwhelmed",
+      "anxious"
+    ],
+    "tone": "sheltering",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 34:17",
+    "text": "The righteous cry, and the LORD heareth, and delivereth them out of all their troubles.",
+    "mood_tags": [
+      "overwhelmed",
+      "despairing",
+      "abandoned"
+    ],
+    "tone": "reassuring",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 34:18",
+    "text": "The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit.",
+    "mood_tags": [
+      "heartbroken",
+      "grieving",
+      "despairing",
+      "lonely"
+    ],
+    "tone": "tender",
+    "notes": "One of the most universally comforting verses in Scripture for emotional pain.",
+    "collection": "shame-and-worthiness"
+  },
+  {
+    "reference": "Psalm 37:7",
+    "text": "Rest in the LORD, and wait patiently for him: fret not thyself because of him who prospereth in his way, because of the man who bringeth wicked devices to pass.",
+    "mood_tags": [
+      "anxious",
+      "restless",
+      "weary"
+    ],
+    "tone": "settling",
+    "notes": "First clause is the comfort; second half addresses unfair-world frustration.",
+    "collection": "rest-and-peace"
+  },
+  {
+    "reference": "Psalm 40:1-2",
+    "text": "I waited patiently for the LORD; and he inclined unto me, and heard my cry. He brought me up also out of an horrible pit, out of the miry clay, and set my feet upon a rock, and established my goings.",
+    "mood_tags": [
+      "despairing",
+      "overwhelmed",
+      "weary"
+    ],
+    "tone": "rescuing",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 42:5",
+    "text": "Why art thou cast down, O my soul? and why art thou disquieted in me? hope thou in God: for I shall yet praise him for the help of his countenance.",
+    "mood_tags": [
+      "despairing",
+      "anxious",
+      "heartbroken"
+    ],
+    "tone": "self-soothing",
+    "notes": "Rare example of speaking compassionately to one's own soul — resonates with modern self-talk frameworks.",
+    "collection": "lament"
+  },
+  {
+    "reference": "Psalm 46:1",
+    "text": "God is our refuge and strength, a very present help in trouble.",
+    "mood_tags": [
+      "overwhelmed",
+      "afraid",
+      "anxious"
+    ],
+    "tone": "grounding",
+    "notes": null,
+    "collection": "lament"
+  },
+  {
+    "reference": "Psalm 46:10",
+    "text": "Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth.",
+    "mood_tags": [
+      "overwhelmed",
+      "anxious",
+      "restless"
+    ],
+    "tone": "grounding",
+    "notes": "The 'be still' opening is the comfort anchor; consider whether to display only the first clause for app context, since the rest can read as triumphal rather than calming.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Psalm 51:10",
+    "text": "Create in me a clean heart, O God; and renew a right spirit within me.",
+    "mood_tags": [
+      "ashamed",
+      "weary",
+      "heartbroken"
+    ],
+    "tone": "renewing",
+    "notes": "Works as a prayer of fresh start without needing the Bathsheba context.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 51:17",
+    "text": "The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise.",
+    "mood_tags": [
+      "ashamed",
+      "heartbroken",
+      "despairing"
+    ],
+    "tone": "tender",
+    "notes": "Powerful for users feeling unworthy — affirms that brokenness itself is received, not rejected.",
+    "collection": "shame-and-worthiness"
+  },
+  {
+    "reference": "Psalm 55:22",
+    "text": "Cast thy burden upon the LORD, and he shall sustain thee: he shall never suffer the righteous to be moved.",
+    "mood_tags": [
+      "overwhelmed",
+      "weary",
+      "exhausted",
+      "anxious"
+    ],
+    "tone": "unburdening",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 56:3",
+    "text": "What time I am afraid, I will trust in thee.",
+    "mood_tags": [
+      "afraid",
+      "anxious"
+    ],
+    "tone": "steadying",
+    "notes": "Short, memorable, easily held in a moment of panic.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Psalm 56:8",
+    "text": "Thou tellest my wanderings: put thou my tears into thy bottle: are they not in thy book?",
+    "mood_tags": [
+      "grieving",
+      "lonely",
+      "heartbroken",
+      "abandoned"
+    ],
+    "tone": "tender",
+    "notes": "The 'tears in thy bottle' image is one of the most tender in Scripture — every tear noticed and kept.",
+    "collection": "lament"
+  },
+  {
+    "reference": "Psalm 57:1",
+    "text": "Be merciful unto me, O God, be merciful unto me: for my soul trusteth in thee: yea, in the shadow of thy wings will I make my refuge, until these calamities be overpast.",
+    "mood_tags": [
+      "overwhelmed",
+      "afraid",
+      "weary"
+    ],
+    "tone": "sheltering",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 61:1-2",
+    "text": "Hear my cry, O God; attend unto my prayer. From the end of the earth will I cry unto thee, when my heart is overwhelmed: lead me to the rock that is higher than I.",
+    "mood_tags": [
+      "overwhelmed",
+      "despairing",
+      "lonely"
+    ],
+    "tone": "reaching",
+    "notes": "Captures the feeling of being far from help — 'end of the earth' resonates with isolation.",
+    "collection": "lament"
+  },
+  {
+    "reference": "Psalm 62:1-2",
+    "text": "Truly my soul waiteth upon God: from him cometh my salvation. He only is my rock and my salvation; he is my defence; I shall not be greatly moved.",
+    "mood_tags": [
+      "anxious",
+      "overwhelmed",
+      "weary"
+    ],
+    "tone": "grounding",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 62:8",
+    "text": "Trust in him at all times; ye people, pour out your heart before him: God is a refuge for us.",
+    "mood_tags": [
+      "overwhelmed",
+      "heartbroken",
+      "lonely"
+    ],
+    "tone": "permission-giving",
+    "notes": "'Pour out your heart' — affirms that emotional honesty is welcome, not too much.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 63:6-7",
+    "text": "When I remember thee upon my bed, and meditate on thee in the night watches. Because thou hast been my help, therefore in the shadow of thy wings will I rejoice.",
+    "mood_tags": [
+      "restless",
+      "anxious",
+      "lonely"
+    ],
+    "tone": "settling",
+    "notes": "Strong nighttime/insomnia verse.",
+    "collection": "rest-and-peace"
+  },
+  {
+    "reference": "Psalm 68:5",
+    "text": "A father of the fatherless, and a judge of the widows, is God in his holy habitation.",
+    "mood_tags": [
+      "abandoned",
+      "lonely",
+      "grieving"
+    ],
+    "tone": "tender",
+    "notes": "Particularly meaningful for women who have lost a partner or father, or experienced parental absence.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 68:19",
+    "text": "Blessed be the Lord, who daily loadeth us with benefits, even the God of our salvation.",
+    "mood_tags": [
+      "weary",
+      "despairing"
+    ],
+    "tone": "uplifting",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 71:9",
+    "text": "Cast me not off in the time of old age; forsake me not when my strength faileth.",
+    "mood_tags": [
+      "afraid",
+      "abandoned",
+      "weary"
+    ],
+    "tone": "vulnerable",
+    "notes": "Speaks directly to fears of aging, declining health, being forgotten.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 71:20-21",
+    "text": "Thou, which hast shewed me great and sore troubles, shalt quicken me again, and shalt bring me up again from the depths of the earth. Thou shalt increase my greatness, and comfort me on every side.",
+    "mood_tags": [
+      "despairing",
+      "grieving",
+      "weary"
+    ],
+    "tone": "restoring",
+    "notes": "Acknowledges 'sore troubles' before promising restoration — doesn't bypass the pain.",
+    "collection": "lament"
+  },
+  {
+    "reference": "Psalm 73:23-24",
+    "text": "Nevertheless I am continually with thee: thou hast holden me by my right hand. Thou shalt guide me with thy counsel, and afterward receive me to glory.",
+    "mood_tags": [
+      "lonely",
+      "anxious",
+      "weary"
+    ],
+    "tone": "accompanying",
+    "notes": "The held-by-the-hand image is intimate and reassuring.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 73:26",
+    "text": "My flesh and my heart faileth: but God is the strength of my heart, and my portion for ever.",
+    "mood_tags": [
+      "exhausted",
+      "weary",
+      "heartbroken",
+      "despairing"
+    ],
+    "tone": "sustaining",
+    "notes": "Honest acknowledgment of physical and emotional collapse paired with steady promise.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 84:5-6",
+    "text": "Blessed is the man whose strength is in thee; in whose heart are the ways of them. Who passing through the valley of Baca make it a well; the rain also filleth the pools.",
+    "mood_tags": [
+      "weary",
+      "grieving"
+    ],
+    "tone": "transformative",
+    "notes": "'Valley of Baca' literally means valley of weeping — turning tears into wells. Beautiful image but may need light translation note for full effect.",
+    "collection": "lament"
+  },
+  {
+    "reference": "Psalm 86:15",
+    "text": "But thou, O Lord, art a God full of compassion, and gracious, longsuffering, and plenteous in mercy and truth.",
+    "mood_tags": [
+      "ashamed",
+      "weary",
+      "heartbroken"
+    ],
+    "tone": "reassuring",
+    "notes": null,
+    "collection": "shame-and-worthiness"
+  },
+  {
+    "reference": "Psalm 91:1-2",
+    "text": "He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty. I will say of the LORD, He is my refuge and my fortress: my God; in him will I trust.",
+    "mood_tags": [
+      "afraid",
+      "overwhelmed",
+      "anxious"
+    ],
+    "tone": "sheltering",
+    "notes": "One of the most beloved comfort passages — 'secret place' imagery is intuitive.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 91:4",
+    "text": "He shall cover thee with his feathers, and under his wings shalt thou trust: his truth shall be thy shield and buckler.",
+    "mood_tags": [
+      "afraid",
+      "anxious",
+      "lonely"
+    ],
+    "tone": "tender",
+    "notes": "Maternal bird imagery is especially resonant for a women's app.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 94:18-19",
+    "text": "When I said, My foot slippeth; thy mercy, O LORD, held me up. In the multitude of my thoughts within me thy comforts delight my soul.",
+    "mood_tags": [
+      "anxious",
+      "overwhelmed",
+      "restless"
+    ],
+    "tone": "reassuring",
+    "notes": "'Multitude of my thoughts' captures racing-mind anxiety with striking precision.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 100:5",
+    "text": "For the LORD is good; his mercy is everlasting: and his truth endureth to all generations.",
+    "mood_tags": [
+      "weary",
+      "despairing",
+      "ashamed"
+    ],
+    "tone": "affirming",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 102:17",
+    "text": "He will regard the prayer of the destitute, and not despise their prayer.",
+    "mood_tags": [
+      "despairing",
+      "lonely",
+      "ashamed",
+      "abandoned"
+    ],
+    "tone": "reassuring",
+    "notes": "Powerful for users who feel their prayers don't matter or aren't heard.",
+    "collection": "shame-and-worthiness"
+  },
+  {
+    "reference": "Psalm 103:2-4",
+    "text": "Bless the LORD, O my soul, and forget not all his benefits: Who forgiveth all thine iniquities; who healeth all thy diseases; Who redeemeth thy life from destruction; who crowneth thee with lovingkindness and tender mercies.",
+    "mood_tags": [
+      "weary",
+      "ashamed",
+      "despairing"
+    ],
+    "tone": "restoring",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 103:8",
+    "text": "The LORD is merciful and gracious, slow to anger, and plenteous in mercy.",
+    "mood_tags": [
+      "ashamed",
+      "afraid"
+    ],
+    "tone": "reassuring",
+    "notes": null,
+    "collection": "shame-and-worthiness"
+  },
+  {
+    "reference": "Psalm 103:13-14",
+    "text": "Like as a father pitieth his children, so the LORD pitieth them that fear him. For he knoweth our frame; he remembereth that we are dust.",
+    "mood_tags": [
+      "ashamed",
+      "weary",
+      "exhausted"
+    ],
+    "tone": "tender",
+    "notes": "'He remembereth that we are dust' — God knowing human limitations is deeply comforting for self-critical users.",
+    "collection": "motherhood"
+  },
+  {
+    "reference": "Psalm 107:9",
+    "text": "For he satisfieth the longing soul, and filleth the hungry soul with goodness.",
+    "mood_tags": [
+      "weary",
+      "lonely",
+      "restless"
+    ],
+    "tone": "filling",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 107:13-14",
+    "text": "Then they cried unto the LORD in their trouble, and he saved them out of their distresses. He brought them out of darkness and the shadow of death, and brake their bands in sunder.",
+    "mood_tags": [
+      "despairing",
+      "overwhelmed",
+      "afraid"
+    ],
+    "tone": "rescuing",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 107:28-30",
+    "text": "Then they cry unto the LORD in their trouble, and he bringeth them out of their distresses. He maketh the storm a calm, so that the waves thereof are still. Then are they glad because they be quiet; so he bringeth them unto their desired haven.",
+    "mood_tags": [
+      "overwhelmed",
+      "anxious",
+      "weary"
+    ],
+    "tone": "stilling",
+    "notes": "Storm-to-calm imagery is universally resonant.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 116:1-2",
+    "text": "I love the LORD, because he hath heard my voice and my supplications. Because he hath inclined his ear unto me, therefore will I call upon him as long as I live.",
+    "mood_tags": [
+      "lonely",
+      "abandoned",
+      "weary"
+    ],
+    "tone": "intimate",
+    "notes": "'Inclined his ear' — image of God leaning down to listen.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 116:7",
+    "text": "Return unto thy rest, O my soul; for the LORD hath dealt bountifully with thee.",
+    "mood_tags": [
+      "restless",
+      "exhausted",
+      "weary"
+    ],
+    "tone": "settling",
+    "notes": "Self-soothing language — speaking to one's own soul. Pairs well with Psalm 42:5.",
+    "collection": "rest-and-peace"
+  },
+  {
+    "reference": "Psalm 116:15",
+    "text": "Precious in the sight of the LORD is the death of his saints.",
+    "mood_tags": [
+      "grieving"
+    ],
+    "tone": "tender",
+    "notes": "Specifically for bereavement contexts — affirms the worth of a lost loved one.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 118:5-6",
+    "text": "I called upon the LORD in distress: the LORD answered me, and set me in a large place. The LORD is on my side; I will not fear: what can man do unto me?",
+    "mood_tags": [
+      "overwhelmed",
+      "afraid",
+      "anxious"
+    ],
+    "tone": "emboldening",
+    "notes": null,
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Psalm 118:24",
+    "text": "This is the day which the LORD hath made; we will rejoice and be glad in it.",
+    "mood_tags": [
+      "weary",
+      "despairing"
+    ],
+    "tone": "uplifting",
+    "notes": "Often used as a morning/daily verse.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 119:50",
+    "text": "This is my comfort in my affliction: for thy word hath quickened me.",
+    "mood_tags": [
+      "weary",
+      "despairing",
+      "grieving"
+    ],
+    "tone": "anchoring",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 119:76",
+    "text": "Let, I pray thee, thy merciful kindness be for my comfort, according to thy word unto thy servant.",
+    "mood_tags": [
+      "weary",
+      "lonely",
+      "heartbroken"
+    ],
+    "tone": "asking",
+    "notes": "A simple, direct prayer for comfort itself.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 119:105",
+    "text": "Thy word is a lamp unto my feet, and a light unto my path.",
+    "mood_tags": [
+      "anxious",
+      "overwhelmed",
+      "restless"
+    ],
+    "tone": "guiding",
+    "notes": "Lamp/path imagery accessible without theological framing.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 119:114",
+    "text": "Thou art my hiding place and my shield: I hope in thy word.",
+    "mood_tags": [
+      "afraid",
+      "overwhelmed",
+      "anxious"
+    ],
+    "tone": "sheltering",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 121",
+    "text": "I will lift up mine eyes unto the hills, from whence cometh my help. My help cometh from the LORD, which made heaven and earth. He will not suffer thy foot to be moved: he that keepeth thee will not slumber. Behold, he that keepeth Israel shall neither slumber nor sleep. The LORD is thy keeper: the LORD is thy shade upon thy right hand. The sun shall not smite thee by day, nor the moon by night. The LORD shall preserve thee from all evil: he shall preserve thy soul. The LORD shall preserve thy going out and thy coming in from this time forth, and even for evermore.",
+    "mood_tags": [
+      "afraid",
+      "anxious",
+      "weary",
+      "lonely"
+    ],
+    "tone": "guarding",
+    "notes": "The whole psalm reads as one self-contained comfort piece — traditional 'traveler's psalm' but works for any sense of vulnerability. Worth keeping whole rather than excerpting.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 126:5-6",
+    "text": "They that sow in tears shall reap in joy. He that goeth forth and weepeth, bearing precious seed, shall doubtless come again with rejoicing, bringing his sheaves with him.",
+    "mood_tags": [
+      "grieving",
+      "weary",
+      "despairing"
+    ],
+    "tone": "hopeful",
+    "notes": "Honors the tears as productive, not wasted.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 130:1-2",
+    "text": "Out of the depths have I cried unto thee, O LORD. Lord, hear my voice: let thine ears be attentive to the voice of my supplications.",
+    "mood_tags": [
+      "despairing",
+      "overwhelmed",
+      "lonely"
+    ],
+    "tone": "raw",
+    "notes": "Validates the experience of crying out from a low place — meets users where they are.",
+    "collection": "lament"
+  },
+  {
+    "reference": "Psalm 131:2",
+    "text": "Surely I have behaved and quieted myself, as a child that is weaned of his mother: my soul is even as a weaned child.",
+    "mood_tags": [
+      "restless",
+      "anxious",
+      "overwhelmed"
+    ],
+    "tone": "settling",
+    "notes": "Maternal imagery of a contented child — particularly resonant for a women's app.",
+    "collection": "motherhood"
+  },
+  {
+    "reference": "Psalm 138:3",
+    "text": "In the day when I cried thou answeredst me, and strengthenedst me with strength in my soul.",
+    "mood_tags": [
+      "exhausted",
+      "weary",
+      "despairing"
+    ],
+    "tone": "sustaining",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 138:7-8",
+    "text": "Though I walk in the midst of trouble, thou wilt revive me: thou shalt stretch forth thine hand against the wrath of mine enemies, and thy right hand shall save me. The LORD will perfect that which concerneth me: thy mercy, O LORD, endureth for ever: forsake not the works of thine own hands.",
+    "mood_tags": [
+      "overwhelmed",
+      "weary",
+      "anxious"
+    ],
+    "tone": "reassuring",
+    "notes": "'The LORD will perfect that which concerneth me' is a beloved phrase for users feeling like life is incomplete or failing.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 139:1-3",
+    "text": "O LORD, thou hast searched me, and known me. Thou knowest my downsitting and mine uprising, thou understandest my thought afar off. Thou compassest my path and my lying down, and art acquainted with all my ways.",
+    "mood_tags": [
+      "lonely",
+      "abandoned"
+    ],
+    "tone": "intimate",
+    "notes": "Being fully known — essential for users feeling unseen or misunderstood.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Psalm 139:7-10",
+    "text": "Whither shall I go from thy spirit? or whither shall I flee from thy presence? If I ascend up into heaven, thou art there: if I make my bed in hell, behold, thou art there. If I take the wings of the morning, and dwell in the uttermost parts of the sea; Even there shall thy hand lead me, and thy right hand shall hold me.",
+    "mood_tags": [
+      "lonely",
+      "despairing",
+      "abandoned",
+      "afraid"
+    ],
+    "tone": "accompanying",
+    "notes": "'If I make my bed in hell, behold, thou art there' — reaches users at their lowest point.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Psalm 139:14",
+    "text": "I will praise thee; for I am fearfully and wonderfully made: marvellous are thy works; and that my soul knoweth right well.",
+    "mood_tags": [
+      "ashamed",
+      "heartbroken"
+    ],
+    "tone": "affirming",
+    "notes": "Widely used affirmation verse — particularly for body image, self-worth, identity struggles.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Psalm 139:17-18",
+    "text": "How precious also are thy thoughts unto me, O God! how great is the sum of them! If I should count them, they are more in number than the sand: when I awake, I am still with thee.",
+    "mood_tags": [
+      "lonely",
+      "abandoned"
+    ],
+    "tone": "tender",
+    "notes": null,
+    "collection": "identity"
+  },
+  {
+    "reference": "Psalm 142:3",
+    "text": "When my spirit was overwhelmed within me, then thou knewest my path.",
+    "mood_tags": [
+      "overwhelmed",
+      "lonely",
+      "despairing"
+    ],
+    "tone": "knowing",
+    "notes": null,
+    "collection": "lament"
+  },
+  {
+    "reference": "Psalm 143:8",
+    "text": "Cause me to hear thy lovingkindness in the morning; for in thee do I trust: cause me to know the way I should walk; for I lift up my soul unto thee.",
+    "mood_tags": [
+      "anxious",
+      "weary",
+      "restless"
+    ],
+    "tone": "morning",
+    "notes": "Strong morning/start-of-day verse.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 145:14",
+    "text": "The LORD upholdeth all that fall, and raiseth up all those that be bowed down.",
+    "mood_tags": [
+      "weary",
+      "exhausted",
+      "despairing",
+      "heartbroken"
+    ],
+    "tone": "lifting",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 145:18",
+    "text": "The LORD is nigh unto all them that call upon him, to all that call upon him in truth.",
+    "mood_tags": [
+      "lonely",
+      "abandoned",
+      "despairing"
+    ],
+    "tone": "near",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 145:19",
+    "text": "He will fulfil the desire of them that fear him: he also will hear their cry, and will save them.",
+    "mood_tags": [
+      "despairing",
+      "weary",
+      "abandoned"
+    ],
+    "tone": "reassuring",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Psalm 146:7-8",
+    "text": "Which executeth judgment for the oppressed: which giveth food to the hungry. The LORD looseth the prisoners: The LORD openeth the eyes of the blind: the LORD raiseth them that are bowed down: the LORD loveth the righteous.",
+    "mood_tags": [
+      "overwhelmed",
+      "weary",
+      "despairing"
+    ],
+    "tone": "liberating",
+    "notes": "'Raiseth them that are bowed down' — particularly resonant for users carrying heavy burdens.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 147:3",
+    "text": "He healeth the broken in heart, and bindeth up their wounds.",
+    "mood_tags": [
+      "heartbroken",
+      "grieving",
+      "weary"
+    ],
+    "tone": "tender",
+    "notes": "One of the strongest comfort verses in all of Psalms — a top-tier candidate.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 147:11",
+    "text": "The LORD taketh pleasure in them that fear him, in those that hope in his mercy.",
+    "mood_tags": [
+      "ashamed",
+      "lonely"
+    ],
+    "tone": "affirming",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 9:2",
+    "text": "The people that walked in darkness have seen a great light: they that dwell in the land of the shadow of death, upon them hath the light shined.",
+    "mood_tags": [
+      "despairing",
+      "grieving",
+      "lonely"
+    ],
+    "tone": "hopeful",
+    "notes": "Light-in-darkness imagery is universal. Often associated with Christmas/Advent but works year-round.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 9:6",
+    "text": "For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, Counseller, The mighty God, The everlasting Father, The Prince of Peace.",
+    "mood_tags": [
+      "overwhelmed",
+      "anxious",
+      "weary"
+    ],
+    "tone": "anchoring",
+    "notes": "The names — especially 'Counsellor' and 'Prince of Peace' — function as comfort regardless of theological framing.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 12:2",
+    "text": "Behold, God is my salvation; I will trust, and not be afraid: for the LORD JEHOVAH is my strength and my song; he also is become my salvation.",
+    "mood_tags": [
+      "afraid",
+      "anxious",
+      "weary"
+    ],
+    "tone": "steadying",
+    "notes": null,
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Isaiah 25:8",
+    "text": "He will swallow up death in victory; and the Lord GOD will wipe away tears from off all faces.",
+    "mood_tags": [
+      "grieving",
+      "heartbroken",
+      "despairing"
+    ],
+    "tone": "tender",
+    "notes": "Excerpted — original verse continues with judgment language. The first two clauses stand beautifully alone for grief contexts.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 26:3",
+    "text": "Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee.",
+    "mood_tags": [
+      "anxious",
+      "restless",
+      "overwhelmed"
+    ],
+    "tone": "settling",
+    "notes": "One of the most beloved verses for anxiety. 'Mind stayed on thee' — directly addresses racing thoughts.",
+    "collection": "rest-and-peace"
+  },
+  {
+    "reference": "Isaiah 30:15",
+    "text": "In returning and rest shall ye be saved; in quietness and in confidence shall be your strength.",
+    "mood_tags": [
+      "weary",
+      "exhausted",
+      "restless",
+      "anxious"
+    ],
+    "tone": "settling",
+    "notes": "Excerpted — the original continues 'and ye would not' which breaks comfort. The first half stands alone as one of the strongest 'permission to rest' verses in scripture.",
+    "collection": "rest-and-peace"
+  },
+  {
+    "reference": "Isaiah 32:2",
+    "text": "And a man shall be as an hiding place from the wind, and a covert from the tempest; as rivers of water in a dry place, as the shadow of a great rock in a weary land.",
+    "mood_tags": [
+      "weary",
+      "exhausted",
+      "overwhelmed"
+    ],
+    "tone": "sheltering",
+    "notes": "'Shadow of a great rock in a weary land' — exceptional imagery for exhaustion.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 32:17-18",
+    "text": "And the work of righteousness shall be peace; and the effect of righteousness quietness and assurance for ever. And my people shall dwell in a peaceable habitation, and in sure dwellings, and in quiet resting places.",
+    "mood_tags": [
+      "restless",
+      "anxious",
+      "weary"
+    ],
+    "tone": "settling",
+    "notes": null,
+    "collection": "rest-and-peace"
+  },
+  {
+    "reference": "Isaiah 35:3-4",
+    "text": "Strengthen ye the weak hands, and confirm the feeble knees. Say to them that are of a fearful heart, Be strong, fear not: behold, your God will come.",
+    "mood_tags": [
+      "afraid",
+      "weary",
+      "exhausted"
+    ],
+    "tone": "encouraging",
+    "notes": "Excerpted — original ends with vengeance language. The 'be strong, fear not' core stands alone beautifully.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 35:10",
+    "text": "And the ransomed of the LORD shall return, and come to Zion with songs and everlasting joy upon their heads: they shall obtain joy and gladness, and sorrow and sighing shall flee away.",
+    "mood_tags": [
+      "grieving",
+      "despairing",
+      "weary"
+    ],
+    "tone": "hopeful",
+    "notes": "'Sorrow and sighing shall flee away' — final phrase carries the comfort weight.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 40:1",
+    "text": "Comfort ye, comfort ye my people, saith your God.",
+    "mood_tags": [
+      "weary",
+      "grieving",
+      "heartbroken"
+    ],
+    "tone": "tender",
+    "notes": "Short, repeated, foundational. Marks the shift in Isaiah from judgment to consolation.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 40:11",
+    "text": "He shall feed his flock like a shepherd: he shall gather the lambs with his arm, and carry them in his bosom, and shall gently lead those that are with young.",
+    "mood_tags": [
+      "weary",
+      "exhausted",
+      "lonely"
+    ],
+    "tone": "tender",
+    "notes": "Specifically tender for women — 'those that are with young' speaks directly to mothers, pregnant women, caregivers.",
+    "collection": "motherhood"
+  },
+  {
+    "reference": "Isaiah 40:28-29",
+    "text": "Hast thou not known? hast thou not heard, that the everlasting God, the LORD, the Creator of the ends of the earth, fainteth not, neither is weary? there is no searching of his understanding. He giveth power to the faint; and to them that have no might he increaseth strength.",
+    "mood_tags": [
+      "exhausted",
+      "weary",
+      "despairing"
+    ],
+    "tone": "sustaining",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 40:31",
+    "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.",
+    "mood_tags": [
+      "exhausted",
+      "weary",
+      "despairing"
+    ],
+    "tone": "renewing",
+    "notes": "Top-tier comfort verse. Among the most quoted in all of Isaiah.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 41:10",
+    "text": "Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness.",
+    "mood_tags": [
+      "afraid",
+      "anxious",
+      "overwhelmed",
+      "lonely"
+    ],
+    "tone": "steadying",
+    "notes": "One of the most universally turned-to verses for fear. Threefold promise — strengthen, help, uphold.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Isaiah 41:13",
+    "text": "For I the LORD thy God will hold thy right hand, saying unto thee, Fear not; I will help thee.",
+    "mood_tags": [
+      "afraid",
+      "anxious",
+      "lonely"
+    ],
+    "tone": "tender",
+    "notes": "Held-by-the-hand image — intimate, parental.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Isaiah 42:3",
+    "text": "A bruised reed shall he not break, and the smoking flax shall he not quench.",
+    "mood_tags": [
+      "weary",
+      "heartbroken",
+      "ashamed",
+      "exhausted"
+    ],
+    "tone": "tender",
+    "notes": "Exquisite verse for users who feel fragile or barely holding on. The promise is gentleness toward the already-broken.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 42:16",
+    "text": "And I will bring the blind by a way that they knew not; I will lead them in paths that they have not known: I will make darkness light before them, and crooked things straight. These things will I do unto them, and not forsake them.",
+    "mood_tags": [
+      "overwhelmed",
+      "anxious",
+      "afraid"
+    ],
+    "tone": "guiding",
+    "notes": "Strong for users facing uncertainty or unfamiliar life transitions.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 43:1",
+    "text": "Fear not: for I have redeemed thee, I have called thee by thy name; thou art mine.",
+    "mood_tags": [
+      "afraid",
+      "lonely",
+      "abandoned",
+      "ashamed"
+    ],
+    "tone": "claiming",
+    "notes": "'Called thee by thy name' — speaks directly to feeling unseen or anonymous. Exceptional comfort verse.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Isaiah 43:2",
+    "text": "When thou passest through the waters, I will be with thee; and through the rivers, they shall not overflow thee: when thou walkest through the fire, thou shalt not be burned; neither shall the flame kindle upon thee.",
+    "mood_tags": [
+      "overwhelmed",
+      "afraid",
+      "despairing"
+    ],
+    "tone": "accompanying",
+    "notes": "Notice it doesn't say 'if' — it says 'when.' Acknowledges that hard things come, while promising presence through them.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Isaiah 43:4",
+    "text": "Since thou wast precious in my sight, thou hast been honourable, and I have loved thee.",
+    "mood_tags": [
+      "ashamed",
+      "lonely",
+      "heartbroken"
+    ],
+    "tone": "affirming",
+    "notes": "Direct declaration of being precious and loved. Powerful for self-worth struggles.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Isaiah 43:18-19",
+    "text": "Remember ye not the former things, neither consider the things of old. Behold, I will do a new thing; now it shall spring forth; shall ye not know it? I will even make a way in the wilderness, and rivers in the desert.",
+    "mood_tags": [
+      "despairing",
+      "weary",
+      "ashamed"
+    ],
+    "tone": "renewing",
+    "notes": "Powerful for users stuck in past regrets, failures, or trauma. Permission to release the old.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 46:4",
+    "text": "And even to your old age I am he; and even to hoar hairs will I carry you: I have made, and I will bear; even I will carry, and will deliver you.",
+    "mood_tags": [
+      "afraid",
+      "weary",
+      "abandoned",
+      "lonely"
+    ],
+    "tone": "sustaining",
+    "notes": "Speaks specifically to fears of aging. Pairs well with Psalm 71:9.",
+    "collection": "motherhood"
+  },
+  {
+    "reference": "Isaiah 49:15-16",
+    "text": "Can a woman forget her sucking child, that she should not have compassion on the son of her womb? yea, they may forget, yet will I not forget thee. Behold, I have graven thee upon the palms of my hands.",
+    "mood_tags": [
+      "abandoned",
+      "lonely",
+      "heartbroken",
+      "despairing"
+    ],
+    "tone": "tender",
+    "notes": "Maternal imagery makes this exceptionally resonant for a women's app. 'Graven on the palms of my hands' is one of the most intimate images in scripture.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Isaiah 50:4",
+    "text": "The Lord GOD hath given me the tongue of the learned, that I should know how to speak a word in season to him that is weary.",
+    "mood_tags": [
+      "exhausted",
+      "weary"
+    ],
+    "tone": "tender",
+    "notes": "About speaking gentle words to the weary — meta-comfort, useful for users supporting others through exhaustion.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 51:3",
+    "text": "For the LORD shall comfort Zion: he will comfort all her waste places; and he will make her wilderness like Eden, and her desert like the garden of the LORD; joy and gladness shall be found therein, thanksgiving, and the voice of melody.",
+    "mood_tags": [
+      "despairing",
+      "grieving",
+      "weary"
+    ],
+    "tone": "restoring",
+    "notes": "Wilderness-to-garden imagery — for users who feel their lives are barren or wasted.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 51:11",
+    "text": "Therefore the redeemed of the LORD shall return, and come with singing unto Zion; and everlasting joy shall be upon their head: they shall obtain gladness and joy; and sorrow and mourning shall flee away.",
+    "mood_tags": [
+      "grieving",
+      "despairing",
+      "weary"
+    ],
+    "tone": "hopeful",
+    "notes": "Echoes 35:10 — same closing image of sorrow fleeing away.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 51:12",
+    "text": "I, even I, am he that comforteth you.",
+    "mood_tags": [
+      "lonely",
+      "grieving",
+      "heartbroken"
+    ],
+    "tone": "tender",
+    "notes": "Excerpted — short, direct, devastatingly tender. The repeated 'I, even I' emphasizes personal intention.",
+    "collection": "lament"
+  },
+  {
+    "reference": "Isaiah 54:10",
+    "text": "For the mountains shall depart, and the hills be removed; but my kindness shall not depart from thee, neither shall the covenant of my peace be removed, saith the LORD that hath mercy on thee.",
+    "mood_tags": [
+      "abandoned",
+      "afraid",
+      "lonely",
+      "despairing"
+    ],
+    "tone": "anchoring",
+    "notes": "Promise of unwavering kindness even as the world changes.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 55:1",
+    "text": "Ho, every one that thirsteth, come ye to the waters, and he that hath no money; come ye, buy, and eat; yea, come, buy wine and milk without money and without price.",
+    "mood_tags": [
+      "weary",
+      "lonely",
+      "ashamed"
+    ],
+    "tone": "welcoming",
+    "notes": "Open invitation regardless of worthiness or means. Powerful for users feeling unworthy of help.",
+    "collection": "shame-and-worthiness"
+  },
+  {
+    "reference": "Isaiah 55:8-9",
+    "text": "For my thoughts are not your thoughts, neither are your ways my ways, saith the LORD. For as the heavens are higher than the earth, so are my ways higher than your ways, and my thoughts than your thoughts.",
+    "mood_tags": [
+      "overwhelmed",
+      "anxious",
+      "despairing"
+    ],
+    "tone": "perspective-shifting",
+    "notes": "Comfort for users who can't see how things will work out. Releases the burden of figuring everything out.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 57:15",
+    "text": "For thus saith the high and lofty One that inhabiteth eternity, whose name is Holy; I dwell in the high and holy place, with him also that is of a contrite and humble spirit, to revive the spirit of the humble, and to revive the heart of the contrite ones.",
+    "mood_tags": [
+      "heartbroken",
+      "ashamed",
+      "despairing"
+    ],
+    "tone": "reviving",
+    "notes": "God dwells with the broken-hearted — same theme as Psalm 34:18 but more expansive.",
+    "collection": "shame-and-worthiness"
+  },
+  {
+    "reference": "Isaiah 58:11",
+    "text": "And the LORD shall guide thee continually, and satisfy thy soul in drought, and make fat thy bones: and thou shalt be like a watered garden, and like a spring of water, whose waters fail not.",
+    "mood_tags": [
+      "weary",
+      "exhausted",
+      "despairing"
+    ],
+    "tone": "renewing",
+    "notes": "'Satisfy thy soul in drought' — for spiritual or emotional dry seasons.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 60:1",
+    "text": "Arise, shine; for thy light is come, and the glory of the LORD is risen upon thee.",
+    "mood_tags": [
+      "despairing",
+      "weary",
+      "ashamed"
+    ],
+    "tone": "uplifting",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 60:20",
+    "text": "Thy sun shall no more go down; neither shall thy moon withdraw itself: for the LORD shall be unto thee an everlasting light, and the days of thy mourning shall be ended.",
+    "mood_tags": [
+      "grieving",
+      "despairing",
+      "heartbroken"
+    ],
+    "tone": "hopeful",
+    "notes": "Specifically for prolonged grief — promise that mourning has an endpoint.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 61:1",
+    "text": "The Spirit of the Lord GOD is upon me; because the LORD hath anointed me to preach good tidings unto the meek; he hath sent me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to them that are bound.",
+    "mood_tags": [
+      "heartbroken",
+      "despairing",
+      "ashamed"
+    ],
+    "tone": "liberating",
+    "notes": "'Bind up the brokenhearted' — foundational comfort phrase. Quoted by Jesus in Luke 4.",
+    "collection": "shame-and-worthiness"
+  },
+  {
+    "reference": "Isaiah 61:3",
+    "text": "To appoint unto them that mourn in Zion, to give unto them beauty for ashes, the oil of joy for mourning, the garment of praise for the spirit of heaviness.",
+    "mood_tags": [
+      "grieving",
+      "heartbroken",
+      "despairing",
+      "weary"
+    ],
+    "tone": "transformative",
+    "notes": "'Beauty for ashes' is one of the most quoted phrases in comfort contexts. Exchange imagery is powerful.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 62:3",
+    "text": "Thou shalt also be a crown of glory in the hand of the LORD, and a royal diadem in the hand of thy God.",
+    "mood_tags": [
+      "ashamed",
+      "lonely"
+    ],
+    "tone": "affirming",
+    "notes": "Affirmation of inherent worth — being held as something precious.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Isaiah 66:13",
+    "text": "As one whom his mother comforteth, so will I comfort you.",
+    "mood_tags": [
+      "heartbroken",
+      "grieving",
+      "lonely",
+      "weary"
+    ],
+    "tone": "tender",
+    "notes": "Maternal comfort imagery — exceptional for a women's app. One of the few places God explicitly uses motherly comfort as a self-comparison.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Proverbs 3:5-6",
+    "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.",
+    "mood_tags": [
+      "anxious",
+      "overwhelmed",
+      "restless"
+    ],
+    "tone": "guiding",
+    "notes": "One of the most widely turned-to verses for decision paralysis and uncertainty.",
+    "collection": null
+  },
+  {
+    "reference": "Proverbs 3:24",
+    "text": "When thou liest down, thou shalt not be afraid: yea, thou shalt lie down, and thy sleep shall be sweet.",
+    "mood_tags": [
+      "anxious",
+      "afraid",
+      "restless"
+    ],
+    "tone": "settling",
+    "notes": "Strong bedtime/insomnia verse. Pairs with Psalm 4:8.",
+    "collection": "rest-and-peace"
+  },
+  {
+    "reference": "Proverbs 3:25-26",
+    "text": "Be not afraid of sudden fear, neither of the desolation of the wicked, when it cometh. For the LORD shall be thy confidence, and shall keep thy foot from being taken.",
+    "mood_tags": [
+      "afraid",
+      "anxious"
+    ],
+    "tone": "steadying",
+    "notes": "Speaks to panic and sudden-onset fear specifically.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Proverbs 12:25",
+    "text": "Heaviness in the heart of man maketh it stoop: but a good word maketh it glad.",
+    "mood_tags": [
+      "weary",
+      "heartbroken",
+      "despairing"
+    ],
+    "tone": "tender",
+    "notes": "Names the physical weight of emotional heaviness — validates the feeling.",
+    "collection": null
+  },
+  {
+    "reference": "Proverbs 15:13",
+    "text": "A merry heart maketh a cheerful countenance: but by sorrow of the heart the spirit is broken.",
+    "mood_tags": [
+      "grieving",
+      "heartbroken",
+      "weary"
+    ],
+    "tone": "validating",
+    "notes": "The second clause is the comfort core — acknowledging that grief genuinely breaks the spirit, without rushing past it.",
+    "collection": null
+  },
+  {
+    "reference": "Proverbs 17:17",
+    "text": "A friend loveth at all times, and a brother is born for adversity.",
+    "mood_tags": [
+      "lonely",
+      "grieving",
+      "overwhelmed"
+    ],
+    "tone": "warm",
+    "notes": "Comfort about human friendship rather than divine — useful for diversifying the library's emotional register.",
+    "collection": null
+  },
+  {
+    "reference": "Proverbs 17:22",
+    "text": "A merry heart doeth good like a medicine: but a broken spirit drieth the bones.",
+    "mood_tags": [
+      "weary",
+      "exhausted",
+      "despairing"
+    ],
+    "tone": "validating",
+    "notes": "Like 15:13, the broken-spirit imagery names the felt experience of prolonged sadness.",
+    "collection": null
+  },
+  {
+    "reference": "Proverbs 18:10",
+    "text": "The name of the LORD is a strong tower: the righteous runneth into it, and is safe.",
+    "mood_tags": [
+      "afraid",
+      "overwhelmed",
+      "anxious"
+    ],
+    "tone": "sheltering",
+    "notes": null,
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Proverbs 18:24",
+    "text": "A man that hath friends must shew himself friendly: and there is a friend that sticketh closer than a brother.",
+    "mood_tags": [
+      "lonely",
+      "abandoned"
+    ],
+    "tone": "warm",
+    "notes": "Second clause carries the comfort — a friend closer than family. Resonates for users with difficult family relationships.",
+    "collection": null
+  },
+  {
+    "reference": "Proverbs 24:16",
+    "text": "For a just man falleth seven times, and riseth up again.",
+    "mood_tags": [
+      "ashamed",
+      "despairing",
+      "weary"
+    ],
+    "tone": "encouraging",
+    "notes": "Excerpted from a longer verse — the comfort half stands alone beautifully. Powerful for failure, setbacks, repeated struggle. Original verse continues 'but the wicked shall fall into mischief' — recommend using only the first half for comfort surfacing.",
+    "collection": "shame-and-worthiness"
+  },
+  {
+    "reference": "Proverbs 30:5",
+    "text": "Every word of God is pure: he is a shield unto them that put their trust in him.",
+    "mood_tags": [
+      "afraid",
+      "anxious"
+    ],
+    "tone": "sheltering",
+    "notes": null,
+    "collection": null
+  },
+  {
+    "reference": "Proverbs 31:25",
+    "text": "Strength and honour are her clothing; and she shall rejoice in time to come.",
+    "mood_tags": [
+      "weary",
+      "ashamed",
+      "anxious"
+    ],
+    "tone": "affirming",
+    "notes": "Specifically resonant for a women's app — speaks directly to women's strength and future hope. Often used as an empowerment verse.",
+    "collection": null
+  },
+  {
+    "reference": "Romans 8:1",
+    "text": "There is therefore now no condemnation to them which are in Christ Jesus.",
+    "mood_tags": [
+      "ashamed",
+      "anxious"
+    ],
+    "tone": "liberating",
+    "notes": "Foundational shame verse. The 'now' is significant — it's about present standing, not future hope.",
+    "collection": "shame-and-worthiness"
+  },
+  {
+    "reference": "Romans 8:15",
+    "text": "For ye have not received the spirit of bondage again to fear; but ye have received the Spirit of adoption, whereby we cry, Abba, Father.",
+    "mood_tags": [
+      "afraid",
+      "abandoned",
+      "lonely"
+    ],
+    "tone": "claiming",
+    "notes": "'Abba' is intimate Aramaic — closer to 'Daddy' than 'Father.' Powerful for users with absent or difficult fathers, or those who feel orphaned.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Romans 8:16",
+    "text": "The Spirit itself beareth witness with our spirit, that we are the children of God.",
+    "mood_tags": [
+      "lonely",
+      "ashamed",
+      "abandoned"
+    ],
+    "tone": "affirming",
+    "notes": null,
+    "collection": "identity"
+  },
+  {
+    "reference": "Romans 8:18",
+    "text": "For I reckon that the sufferings of this present time are not worthy to be compared with the glory which shall be revealed in us.",
+    "mood_tags": [
+      "weary",
+      "grieving",
+      "despairing",
+      "hopeful"
+    ],
+    "tone": "perspective-shifting",
+    "notes": "Acknowledges present suffering rather than dismissing it — the 'not worthy to be compared' is about scale, not denial.",
+    "collection": null
+  },
+  {
+    "reference": "Romans 8:26",
+    "text": "Likewise the Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered.",
+    "mood_tags": [
+      "weary",
+      "exhausted",
+      "despairing",
+      "overwhelmed"
+    ],
+    "tone": "tender",
+    "notes": "Exquisite for users who feel they can't pray, don't know what to say, or are too exhausted for words. The Spirit prays in the gaps.",
+    "collection": null
+  },
+  {
+    "reference": "Romans 8:28",
+    "text": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
+    "mood_tags": [
+      "despairing",
+      "overwhelmed",
+      "weary",
+      "hopeful"
+    ],
+    "tone": "anchoring",
+    "notes": "Widely quoted. Use with care — for users in acute trauma or fresh grief, this can land as dismissive of pain. Best surfaced in reflective rather than crisis contexts.",
+    "collection": null
+  },
+  {
+    "reference": "Romans 8:31",
+    "text": "What shall we then say to these things? If God be for us, who can be against us?",
+    "mood_tags": [
+      "afraid",
+      "courageous",
+      "strong"
+    ],
+    "tone": "emboldening",
+    "notes": null,
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Romans 8:35",
+    "text": "Who shall separate us from the love of Christ? shall tribulation, or distress, or persecution, or famine, or nakedness, or peril, or sword?",
+    "mood_tags": [
+      "abandoned",
+      "lonely",
+      "afraid",
+      "strong"
+    ],
+    "tone": "anchoring",
+    "notes": "The list of threats names real suffering — the comfort isn't denial of these things, it's that none of them break the connection.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Romans 8:37",
+    "text": "Nay, in all these things we are more than conquerors through him that loved us.",
+    "mood_tags": [
+      "weary",
+      "courageous",
+      "strong",
+      "overwhelmed"
+    ],
+    "tone": "emboldening",
+    "notes": "'More than conquerors' — for users feeling defeated. The strength comes from being loved, not from self-effort.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Romans 8:38-39",
+    "text": "For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.",
+    "mood_tags": [
+      "abandoned",
+      "lonely",
+      "afraid",
+      "ashamed",
+      "strong"
+    ],
+    "tone": "anchoring",
+    "notes": "One of the most beloved passages in scripture. The exhaustive list — death, life, angels, depth, height — is itself the comfort. Nothing left out.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Philippians 1:6",
+    "text": "Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ.",
+    "mood_tags": [
+      "ashamed",
+      "weary",
+      "despairing",
+      "hopeful"
+    ],
+    "tone": "reassuring",
+    "notes": "Powerful for users who feel they're failing or stalling — the work in them is God's to complete, not theirs to perfect.",
+    "collection": "shame-and-worthiness"
+  },
+  {
+    "reference": "Philippians 4:4",
+    "text": "Rejoice in the Lord alway: and again I say, Rejoice.",
+    "mood_tags": [
+      "grateful",
+      "worshipful"
+    ],
+    "tone": "uplifting",
+    "notes": "Short, repeated, foundational. Paul wrote this from prison — the joy isn't situational.",
+    "collection": null
+  },
+  {
+    "reference": "Philippians 4:6-7",
+    "text": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God. And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.",
+    "mood_tags": [
+      "anxious",
+      "overwhelmed",
+      "restless"
+    ],
+    "tone": "stilling",
+    "notes": "Among the most universally turned-to passages for anxiety. 'Peace which passeth all understanding' is the comfort core.",
+    "collection": "rest-and-peace"
+  },
+  {
+    "reference": "Philippians 4:8",
+    "text": "Finally, brethren, whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things.",
+    "mood_tags": [
+      "anxious",
+      "restless",
+      "grateful"
+    ],
+    "tone": "perspective-shifting",
+    "notes": "Practical anxiety guidance — directs the mind toward what's good.",
+    "collection": null
+  },
+  {
+    "reference": "Philippians 4:11-12",
+    "text": "I have learned, in whatsoever state I am, therewith to be content. I know both how to be abased, and I know how to abound: every where and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need.",
+    "mood_tags": [
+      "weary",
+      "grateful",
+      "strong"
+    ],
+    "tone": "grounding",
+    "notes": "Contentment as a learned skill, not a personality trait.",
+    "collection": null
+  },
+  {
+    "reference": "Philippians 4:13",
+    "text": "I can do all things through Christ which strengtheneth me.",
+    "mood_tags": [
+      "weary",
+      "afraid",
+      "strong",
+      "courageous"
+    ],
+    "tone": "fortifying",
+    "notes": "Top-tier strength verse.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Philippians 4:19",
+    "text": "But my God shall supply all your need according to his riches in glory by Christ Jesus.",
+    "mood_tags": [
+      "weary",
+      "anxious",
+      "overwhelmed"
+    ],
+    "tone": "sustaining",
+    "notes": "For users in material want, scarcity mindset, or fear of not having enough.",
+    "collection": null
+  },
+  {
+    "reference": "Lamentations 3:19-20",
+    "text": "Remembering mine affliction and my misery, the wormwood and the gall. My soul hath them still in remembrance, and is humbled in me.",
+    "mood_tags": [
+      "grieving",
+      "heartbroken",
+      "despairing",
+      "weary"
+    ],
+    "tone": "raw",
+    "notes": "Pure lament — names the bitterness without rushing to comfort. Validates remembering pain.",
+    "collection": "lament"
+  },
+  {
+    "reference": "Lamentations 3:21-23",
+    "text": "This I recall to my mind, therefore have I hope. It is of the LORD's mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.",
+    "mood_tags": [
+      "weary",
+      "despairing",
+      "grateful",
+      "worshipful",
+      "hopeful"
+    ],
+    "tone": "morning",
+    "notes": "Hope is chosen — 'this I recall to my mind' — not felt. The famous 'great is thy faithfulness' passage.",
+    "collection": null
+  },
+  {
+    "reference": "Lamentations 3:24",
+    "text": "The LORD is my portion, saith my soul; therefore will I hope in him.",
+    "mood_tags": [
+      "lonely",
+      "weary",
+      "grateful",
+      "hopeful"
+    ],
+    "tone": "anchoring",
+    "notes": "'Portion' = inheritance. For users who feel they have nothing — God himself is what's given.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Lamentations 3:25-26",
+    "text": "The LORD is good unto them that wait for him, to the soul that seeketh him. It is good that a man should both hope and quietly wait for the salvation of the LORD.",
+    "mood_tags": [
+      "weary",
+      "anxious",
+      "restless"
+    ],
+    "tone": "stilling",
+    "notes": "'Quietly wait' — permission for users in extended seasons of unanswered prayer.",
+    "collection": "rest-and-peace"
+  },
+  {
+    "reference": "Lamentations 3:31-32",
+    "text": "For the Lord will not cast off for ever: but though he cause grief, yet will he have compassion according to the multitude of his mercies.",
+    "mood_tags": [
+      "grieving",
+      "abandoned",
+      "despairing",
+      "hopeful"
+    ],
+    "tone": "tender",
+    "notes": "Honest about grief — doesn't pretend God's people don't suffer — but anchors in the larger arc of compassion.",
+    "collection": "lament"
+  },
+  {
+    "reference": "Zephaniah 3:17",
+    "text": "The LORD thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing.",
+    "mood_tags": [
+      "lonely",
+      "ashamed",
+      "worshipful",
+      "grateful",
+      "abandoned"
+    ],
+    "tone": "intimate",
+    "notes": "Top-tier verse. God singing over her — uniquely tender and reciprocal. Worth featuring prominently.",
+    "collection": "identity"
+  }
+]

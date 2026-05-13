@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Selah",
+    "slug": "selah",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "selah",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#FAF8F5",
+      "resizeMode": "cover"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.eviemaxinerose.selah",
+      "buildNumber": "1",
+      "icon": "./assets/icon.png",
+      "infoPlist": {
+        "NSUserNotificationsUsageDescription": "Selah sends one verse per day at your chosen time."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FAF8F5"
+      },
+      "package": "com.newapp",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-camera",
+      "expo-notifications",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a12ec314-44cf-43b6-bf6e-1021ba06fc42"
+      }
+    },
+    "owner": "evie-rose"
+  }
+}
