@@ -40,10 +40,18 @@ export function usePremium() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    resolveIsPremium().then(result => {
-      setIsPremium(result);
-      setLoading(false);
-    });
+    console.log('[LAUNCH] premium status loading');
+    resolveIsPremium()
+      .then(result => {
+        setIsPremium(result);
+        console.log('[LAUNCH] premium status loaded:', result);
+      })
+      .catch(e => {
+        console.error('[LAUNCH] premium status load failed:', e);
+      })
+      .finally(() => {
+        setLoading(false);
+      });
   }, []);
 
   async function purchase(pkg: PurchasesPackage): Promise<{ success: boolean; cancelled: boolean }> {
@@ -61,7 +69,7 @@ export function usePremium() {
   async function restore(): Promise<boolean> {
     try {
       const info = await doRestorePurchases();
-      const premium = info.entitlements.active[ENTITLEMENT_ID] !== undefined;
+      const premium = !!(info?.entitlements?.active?.[ENTITLEMENT_ID]);
       await persistPremium(premium);
       setIsPremium(premium);
       return premium;

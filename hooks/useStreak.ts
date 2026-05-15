@@ -27,35 +27,44 @@ export function useStreak(): { streak: number; isLoading: boolean } {
 
   useEffect(() => {
     async function update() {
-      const today = todayString();
-      const yesterday = yesterdayString();
+      try {
+        console.log('[LAUNCH] streak loading');
+        const today = todayString();
+        const yesterday = yesterdayString();
 
-      const [storedDate, storedCount] = await Promise.all([
-        AsyncStorage.getItem(KEY_LAST_DATE),
-        AsyncStorage.getItem(KEY_COUNT),
-      ]);
+        const rawDate = await AsyncStorage.getItem(KEY_LAST_DATE);
+        const rawCount = await AsyncStorage.getItem(KEY_COUNT);
 
-      let newStreak: number;
+        const storedDate = rawDate ?? null;
+        const storedCount = rawCount ?? null;
 
-      if (!storedDate) {
-        newStreak = 1;
-      } else if (storedDate === today) {
-        newStreak = parseInt(storedCount ?? '1', 10);
-      } else if (storedDate === yesterday) {
-        newStreak = parseInt(storedCount ?? '0', 10) + 1;
-      } else {
-        newStreak = 1;
+        let newStreak: number;
+
+        if (!storedDate) {
+          newStreak = 1;
+        } else if (storedDate === today) {
+          newStreak = parseInt(storedCount ?? '1', 10);
+        } else if (storedDate === yesterday) {
+          newStreak = parseInt(storedCount ?? '0', 10) + 1;
+        } else {
+          newStreak = 1;
+        }
+
+        if (storedDate !== today) {
+          await AsyncStorage.multiSet([
+            [KEY_LAST_DATE, today],
+            [KEY_COUNT, String(newStreak)],
+          ]);
+        }
+
+        setStreak(newStreak);
+        console.log('[LAUNCH] streak loaded:', newStreak);
+      } catch (e) {
+        console.error('[LAUNCH] streak load failed:', e);
+        setStreak(1);
+      } finally {
+        setIsLoading(false);
       }
-
-      if (storedDate !== today) {
-        await AsyncStorage.multiSet([
-          [KEY_LAST_DATE, today],
-          [KEY_COUNT, String(newStreak)],
-        ]);
-      }
-
-      setStreak(newStreak);
-      setIsLoading(false);
     }
 
     update();

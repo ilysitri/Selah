@@ -227,35 +227,56 @@ export function useDailyBite(): { bite: DailyBite | null; isLoading: boolean } {
 
   useEffect(() => {
     async function load() {
-      const today = todayString();
-      const [storedDate, storedRef, storedQuestion] = await Promise.all([
-        AsyncStorage.getItem(KEY_DATE),
-        AsyncStorage.getItem(KEY_REFERENCE),
-        AsyncStorage.getItem(KEY_QUESTION),
-      ]);
+      try {
+        console.log('[LAUNCH] daily bite loading');
 
-      if (storedDate === today && storedRef && storedQuestion) {
-        const verse = library.find(v => v.reference === storedRef) ?? null;
-        if (verse) {
-          setBite({ verse, question: storedQuestion });
-          setIsLoading(false);
+        if (!library || library.length === 0) {
+          console.error('[LAUNCH] library is empty, cannot load daily bite');
           return;
         }
+
+        const today = todayString();
+
+        const rawDate = await AsyncStorage.getItem(KEY_DATE);
+        const rawRef = await AsyncStorage.getItem(KEY_REFERENCE);
+        const rawQuestion = await AsyncStorage.getItem(KEY_QUESTION);
+
+        const storedDate = rawDate ?? null;
+        const storedRef = rawRef ?? null;
+        const storedQuestion = rawQuestion ?? null;
+
+        if (storedDate === today && storedRef && storedQuestion) {
+          const verse = library.find(v => v.reference === storedRef) ?? null;
+          if (verse) {
+            setBite({ verse, question: storedQuestion });
+            console.log('[LAUNCH] daily bite loaded from cache');
+            return;
+          }
+        }
+
+        const idx = seededIndex(today, library.length);
+        const verse = library[idx];
+        if (!verse) {
+          console.error('[LAUNCH] seededIndex returned out-of-bounds index:', idx);
+          return;
+        }
+
+        const pool = REFLECTION_QUESTIONS[verse.tone] ?? FALLBACK_QUESTIONS;
+        const question = pool[seededIndex(today + '-q', pool.length)];
+
+        await AsyncStorage.multiSet([
+          [KEY_DATE, today],
+          [KEY_REFERENCE, verse.reference],
+          [KEY_QUESTION, question],
+        ]);
+
+        setBite({ verse, question });
+        console.log('[LAUNCH] daily bite loaded fresh');
+      } catch (e) {
+        console.error('[LAUNCH] daily bite load failed:', e);
+      } finally {
+        setIsLoading(false);
       }
-
-      const idx = seededIndex(today, library.length);
-      const verse = library[idx];
-      const pool = REFLECTION_QUESTIONS[verse.tone] ?? FALLBACK_QUESTIONS;
-      const question = pool[seededIndex(today + '-q', pool.length)];
-
-      await AsyncStorage.multiSet([
-        [KEY_DATE, today],
-        [KEY_REFERENCE, verse.reference],
-        [KEY_QUESTION, question],
-      ]);
-
-      setBite({ verse, question });
-      setIsLoading(false);
     }
 
     load();
