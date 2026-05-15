@@ -7,6 +7,15 @@ import prayersRaw from '../assets/data/prayers.json';
 import type { MoodTag, Verse, Prayer } from '../types/selah';
 import { todayString } from '../lib/seededDate';
 
+// Runtime safety — Metro ESM interop can wrap JSON in { default: [...] } in production Hermes builds
+const _libraryRaw: unknown[] = Array.isArray(libraryRaw)
+  ? libraryRaw
+  : (libraryRaw as any)?.default ?? [];
+
+const _prayersRaw: unknown[] = Array.isArray(prayersRaw)
+  ? prayersRaw
+  : (prayersRaw as any)?.default ?? [];
+
 // ── constants ────────────────────────────────────────────────────────────────
 
 const MOODS: MoodTag[] = [
@@ -54,7 +63,9 @@ const MOOD_EMOJIS: Record<MoodTag, string> = {
   courageous:  '🌱',
 };
 
-// ── module-level data (processed once on first import) ───────────────────────
+// ── lazy initialization ───────────────────────────────────────────────────────
+// Nothing runs at module level — data is built on first use inside a function,
+// so a malformed JSON shape in production Hermes never crashes before render.
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -65,41 +76,59 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-const library = libraryRaw as unknown as Verse[];
-const prayers = prayersRaw as unknown as Prayer[];
+let _versesByMood: Record<MoodTag, Verse[]> | null = null;
+let _prayerByMood: Record<MoodTag, Prayer | undefined> | null = null;
+const _moodCursor: Partial<Record<MoodTag, number>> = {};
 
-// Verses indexed by mood, shuffled once per session for stable ordering
-const versesByMood = {} as Record<MoodTag, Verse[]>;
-for (const mood of MOODS) {
-  versesByMood[mood] = shuffle(library.filter(v => v.mood_tags.includes(mood)));
+function getVersesByMoodMap(): Record<MoodTag, Verse[]> {
+  if (_versesByMood) return _versesByMood;
+  try {
+    const lib = _libraryRaw as Verse[];
+    _versesByMood = {} as Record<MoodTag, Verse[]>;
+    for (const mood of MOODS) {
+      _versesByMood[mood] = shuffle(lib.filter(v => v.mood_tags.includes(mood)));
+    }
+  } catch (e) {
+    console.error('[useSelah] Failed to initialize versesByMood:', e);
+    _versesByMood = {} as Record<MoodTag, Verse[]>;
+    for (const mood of MOODS) {
+      _versesByMood[mood] = [];
+    }
+  }
+  return _versesByMood;
 }
 
-// Prayers indexed by mood (one per tag)
-const prayerByMood = {} as Record<MoodTag, Prayer | undefined>;
-for (const prayer of prayers) {
-  prayerByMood[prayer.mood_tag] = prayer;
+function getPrayerByMoodMap(): Record<MoodTag, Prayer | undefined> {
+  if (_prayerByMood) return _prayerByMood;
+  try {
+    const prs = _prayersRaw as Prayer[];
+    _prayerByMood = {} as Record<MoodTag, Prayer | undefined>;
+    for (const prayer of prs) {
+      _prayerByMood[prayer.mood_tag as MoodTag] = prayer;
+    }
+  } catch (e) {
+    console.error('[useSelah] Failed to initialize prayerByMood:', e);
+    _prayerByMood = {} as Record<MoodTag, Prayer | undefined>;
+  }
+  return _prayerByMood;
 }
-
-// Round-robin cursor per mood — advances each call so the same verse is never
-// returned twice in a row unless that mood has only one verse.
-const moodCursor: Partial<Record<MoodTag, number>> = {};
 
 // ── data functions ────────────────────────────────────────────────────────────
 
 function getVersesByMood(mood: MoodTag): Verse[] {
-  return versesByMood[mood] ?? [];
+  return getVersesByMoodMap()[mood] ?? [];
 }
 
 function getRandomVerseByMood(mood: MoodTag): Verse | null {
-  const verses = versesByMood[mood];
+  const verses = getVersesByMoodMap()[mood];
   if (!verses || verses.length === 0) return null;
-  const i = moodCursor[mood] ?? 0;
-  moodCursor[mood] = (i + 1) % verses.length;
+  const i = _moodCursor[mood] ?? 0;
+  _moodCursor[mood] = (i + 1) % verses.length;
   return verses[i];
 }
 
 function getPrayerByMood(mood: MoodTag): Prayer | null {
-  return prayerByMood[mood] ?? null;
+  return getPrayerByMoodMap()[mood] ?? null;
 }
 
 function getAllMoods(): MoodTag[] {
@@ -115,11 +144,11 @@ function getMoodEmoji(mood: MoodTag): string {
 }
 
 function getVerseByReference(reference: string): Verse | null {
-  return library.find(v => v.reference === reference) ?? null;
+  return (_libraryRaw as Verse[]).find(v => v.reference === reference) ?? null;
 }
 
 function getVersesByCollection(collection: string): Verse[] {
-  return library.filter(v => v.collection === collection);
+  return (_libraryRaw as Verse[]).filter(v => v.collection === collection);
 }
 
 async function getMoodEntryCount(): Promise<number> {

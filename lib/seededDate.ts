@@ -1,7 +1,10 @@
 import libraryRaw from '../assets/data/library.json';
 import type { Verse } from '../types/selah';
 
-export const library = libraryRaw as unknown as Verse[];
+// Runtime safety — Metro ESM interop can wrap JSON in { default: [...] } in production Hermes builds
+export const library = (Array.isArray(libraryRaw)
+  ? libraryRaw
+  : ((libraryRaw as any)?.default ?? [])) as unknown as Verse[];
 
 export function todayString(): string {
   const d = new Date();
