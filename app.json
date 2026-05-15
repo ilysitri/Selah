@@ -16,7 +16,7 @@
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.eviemaxinerose.selah",
-      "buildNumber": "9",
+      "buildNumber": "12",
       "icon": "./assets/icon.png",
       "infoPlist": {
         "NSUserNotificationsUsageDescription": "Selah sends one verse per day at your chosen time.",
@@ -29,7 +29,7 @@
         "backgroundColor": "#FAF8F5"
       },
       "package": "com.newapp",
-      "versionCode": 9,
+      "versionCode": 12,
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.RECORD_AUDIO"
