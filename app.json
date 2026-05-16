@@ -30,10 +30,7 @@
       },
       "package": "com.newapp",
       "versionCode": 12,
-      "permissions": [
-        "android.permission.CAMERA",
-        "android.permission.RECORD_AUDIO"
-      ]
+      "permissions": []
     },
     "web": {
       "bundler": "metro",
@@ -41,7 +38,6 @@
     },
     "plugins": [
       "expo-router",
-      "expo-camera",
       "expo-notifications",
       "expo-font"
     ],
