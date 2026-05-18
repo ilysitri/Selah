@@ -187,19 +187,21 @@ export default function SettingsScreen() {
           </View>
         </View>
 
-        <View style={styles.section}>
-          <Text style={styles.sectionLabel}>ACCOUNT</Text>
-          <TouchableOpacity
-            style={[styles.card, styles.accountCard]}
-            onPress={() => router.push('/paywall')}
-            activeOpacity={0.7}
-          >
-            <View style={styles.row}>
-              <Text style={styles.accountLabel}>Selah Plus</Text>
-              <Text style={styles.upgradeText}>Upgrade ›</Text>
-            </View>
-          </TouchableOpacity>
-        </View>
+        {!isPremium && (
+          <View style={styles.section}>
+            <Text style={styles.sectionLabel}>ACCOUNT</Text>
+            <TouchableOpacity
+              style={[styles.card, styles.accountCard]}
+              onPress={() => router.push('/paywall')}
+              activeOpacity={0.7}
+            >
+              <View style={styles.row}>
+                <Text style={styles.accountLabel}>Selah Plus</Text>
+                <Text style={styles.upgradeText}>Upgrade ›</Text>
+              </View>
+            </TouchableOpacity>
+          </View>
+        )}
 
         <View style={styles.section}>
           <Text style={styles.sectionLabel}>REMINDERS</Text>
@@ -225,7 +227,7 @@ export default function SettingsScreen() {
           <View style={styles.card}>
             <TouchableOpacity
               style={styles.row}
-              onPress={() => Linking.openURL('https://ilysitri.github.io/Ketra/terms.html')}
+              onPress={() => Linking.openURL('https://ilysitri.github.io/Selah/terms.html')}
               activeOpacity={0.7}
             >
               <Text style={styles.rowLabel}>Terms of Service</Text>
@@ -234,7 +236,7 @@ export default function SettingsScreen() {
             <View style={styles.hairline} />
             <TouchableOpacity
               style={styles.row}
-              onPress={() => Linking.openURL('https://ilysitri.github.io/Ketra/privacy.html')}
+              onPress={() => Linking.openURL('https://ilysitri.github.io/Selah/privacy.html')}
               activeOpacity={0.7}
             >
               <Text style={styles.rowLabel}>Privacy Policy</Text>
@@ -253,7 +255,7 @@ export default function SettingsScreen() {
             <View style={styles.hairline} />
             <TouchableOpacity
               style={styles.row}
-              onPress={() => Linking.openURL('mailto:hello@selahapp.co')}
+              onPress={() => Linking.openURL('https://ilysitri.github.io/Selah/')}
               activeOpacity={0.7}
             >
               <Text style={styles.rowLabel}>Contact</Text>

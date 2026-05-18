@@ -33,10 +33,10 @@ export default function ConclusionScreen() {
         <View style={styles.buttons}>
           <TouchableOpacity
             style={styles.primaryButton}
-            onPress={() => router.replace('/paywall')}
+            onPress={() => router.back()}
             activeOpacity={0.8}
           >
-            <Text style={styles.primaryButtonText}>See unlimited</Text>
+            <Text style={styles.primaryButtonText}>Continue</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
