@@ -26,7 +26,7 @@ const VALUE_PROPS = [
 ];
 
 const FALLBACK_ANNUAL = '$39.99/year';
-const FALLBACK_MONTHLY = '$9.99/month';
+const FALLBACK_MONTHLY = '$4.99/month';
 
 export default function PaywallScreen() {
   const router = useRouter();

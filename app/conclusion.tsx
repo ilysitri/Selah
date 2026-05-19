@@ -28,7 +28,7 @@ export default function ConclusionScreen() {
           Unlimited removes the caps — use it as much as you want.
         </Text>
 
-        <Text style={styles.pricing}>$39.99/year or $9.99/month</Text>
+        <Text style={styles.pricing}>$39.99/year or $4.99/month</Text>
 
         <View style={styles.buttons}>
           <TouchableOpacity
