@@ -16,6 +16,12 @@
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "ios": {
+        "appleId": "skogsmuset@gmail.com",
+        "ascAppId": "6768782334",
+        "appleTeamId": "DX3W8327WM"
+      }
+    }
   }
 }
