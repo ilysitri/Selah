@@ -1801,5 +1801,444 @@
     "tone": "intimate",
     "notes": "Top-tier verse. God singing over her — uniquely tender and reciprocal. Worth featuring prominently.",
     "collection": "identity"
+  },
+  {
+    "reference": "Colossians 3:15",
+    "text": "And let the peace of God rule in your hearts, to the which also ye are called in one body; and be ye thankful.",
+    "mood_tags": [
+      "grateful",
+      "hopeful"
+    ],
+    "tone": "grounding",
+    "notes": "Links inner peace with intentional thankfulness — for women carrying invisible emotional labor.",
+    "collection": null
+  },
+  {
+    "reference": "Colossians 3:17",
+    "text": "And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him.",
+    "mood_tags": [
+      "grateful",
+      "worshipful"
+    ],
+    "tone": "affirming",
+    "notes": "For women whose gratitude has to live in ordinary routines, not only in dramatic spiritual moments.",
+    "collection": null
+  },
+  {
+    "reference": "1 Thessalonians 5:18",
+    "text": "In every thing give thanks: for this is the will of God in Christ Jesus concerning you.",
+    "mood_tags": [
+      "grateful",
+      "hopeful"
+    ],
+    "tone": "grounding",
+    "notes": "Honors gratitude without pretending everything feels easy.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 100:4",
+    "text": "Enter into his gates with thanksgiving, and into his courts with praise: be thankful unto him, and bless his name.",
+    "mood_tags": [
+      "grateful",
+      "worshipful"
+    ],
+    "tone": "warm",
+    "notes": "Welcoming language for beginning prayer with gratitude rather than pressure.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 103:2",
+    "text": "Bless the Lord, O my soul, and forget not all his benefits:",
+    "mood_tags": [
+      "grateful",
+      "hopeful"
+    ],
+    "tone": "renewing",
+    "notes": "For women who need help remembering God's goodness when exhaustion clouds perspective.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 107:1",
+    "text": "O give thanks unto the Lord, for he is good: for his mercy endureth for ever.",
+    "mood_tags": [
+      "grateful",
+      "hopeful"
+    ],
+    "tone": "warm",
+    "notes": "Steady focus on God's goodness — for women who need gratitude rooted in something enduring.",
+    "collection": null
+  },
+  {
+    "reference": "1 Chronicles 16:8",
+    "text": "Give thanks unto the Lord, call upon his name, make known his deeds among the people.",
+    "mood_tags": [
+      "grateful",
+      "worshipful"
+    ],
+    "tone": "encouraging",
+    "notes": "Invites women to name God's faithfulness out loud, not only feel it privately.",
+    "collection": null
+  },
+  {
+    "reference": "Isaiah 6:3",
+    "text": "And one cried unto another, and said, Holy, holy, holy, is the Lord of hosts: the whole earth is full of his glory.",
+    "mood_tags": [
+      "worshipful",
+      "hopeful"
+    ],
+    "tone": "uplifting",
+    "notes": "Lifts women out of self-focus and into awe — relieving in seasons of pressure or overthinking.",
+    "collection": null
+  },
+  {
+    "reference": "Revelation 4:11",
+    "text": "Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created.",
+    "mood_tags": [
+      "worshipful",
+      "hopeful"
+    ],
+    "tone": "affirming",
+    "notes": "Life begins with God's intentional delight — speaks tenderly to women wrestling with worth.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 95:6",
+    "text": "O come, let us worship and bow down: let us kneel before the Lord our maker.",
+    "mood_tags": [
+      "worshipful",
+      "grateful"
+    ],
+    "tone": "grounding",
+    "notes": "Humble, embodied, simple — for women who long for worship that feels physically accessible.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 96:9",
+    "text": "O worship the Lord in the beauty of holiness: fear before him, all the earth.",
+    "mood_tags": [
+      "worshipful",
+      "hopeful"
+    ],
+    "tone": "uplifting",
+    "notes": "A vision of holiness that feels attractive rather than harsh.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 100:2",
+    "text": "Serve the Lord with gladness: come before his presence with singing.",
+    "mood_tags": [
+      "worshipful",
+      "grateful"
+    ],
+    "tone": "uplifting",
+    "notes": "For women who need worship to feel joyful and open, not merely dutiful.",
+    "collection": null
+  },
+  {
+    "reference": "Psalm 150:6",
+    "text": "Let every thing that hath breath praise the Lord. Praise ye the Lord.",
+    "mood_tags": [
+      "worshipful",
+      "hopeful"
+    ],
+    "tone": "uplifting",
+    "notes": "Simplicity and wholeness — cuts through mental clutter.",
+    "collection": null
+  },
+  {
+    "reference": "Ephesians 6:10",
+    "text": "Finally, my brethren, be strong in the Lord, and in the power of his might.",
+    "mood_tags": [
+      "strong",
+      "hopeful"
+    ],
+    "tone": "fortifying",
+    "notes": "Strength is received, not self-manufactured — for women who feel depleted.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Ephesians 6:13",
+    "text": "Wherefore take unto you the whole armour of God, that ye may be able to withstand in the evil day, and having done all, to stand.",
+    "mood_tags": [
+      "strong",
+      "courageous"
+    ],
+    "tone": "fortifying",
+    "notes": "Validates endurance as holy strength — even when the day feels impossibly long.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Joshua 1:9",
+    "text": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the Lord thy God is with thee whithersoever thou goest.",
+    "mood_tags": [
+      "strong",
+      "courageous",
+      "afraid"
+    ],
+    "tone": "emboldening",
+    "notes": "Ties courage to God's presence — for women stepping into new or lonely responsibilities.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "2 Timothy 1:7",
+    "text": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.",
+    "mood_tags": [
+      "strong",
+      "afraid",
+      "anxious"
+    ],
+    "tone": "affirming",
+    "notes": "Fear does not get the final word — for women under mental and emotional strain.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Nehemiah 8:10",
+    "text": "Neither be ye sorry; for the joy of the Lord is your strength.",
+    "mood_tags": [
+      "strong",
+      "weary",
+      "hopeful"
+    ],
+    "tone": "renewing",
+    "notes": "Excerpted — the comfort core. Joy as nourishment rather than extra effort, for tired women.",
+    "collection": null
+  },
+  {
+    "reference": "2 Corinthians 12:9",
+    "text": "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me.",
+    "mood_tags": [
+      "strong",
+      "weary",
+      "hopeful"
+    ],
+    "tone": "fortifying",
+    "notes": "Weakness reframed without shame — for women carrying pain, limitation, or chronic strain.",
+    "collection": null
+  },
+  {
+    "reference": "2 Corinthians 12:10",
+    "text": "Therefore I take pleasure in infirmities, in reproaches, in necessities, in persecutions, in distresses for Christ's sake: for when I am weak, then am I strong.",
+    "mood_tags": [
+      "strong",
+      "weary",
+      "hopeful"
+    ],
+    "tone": "emboldening",
+    "notes": "Language to survive hard places without pretending they are easy.",
+    "collection": null
+  },
+  {
+    "reference": "Deuteronomy 31:6",
+    "text": "Be strong and of a good courage, fear not, nor be afraid of them: for the Lord thy God, he it is that doth go with thee; he will not fail thee, nor forsake thee.",
+    "mood_tags": [
+      "courageous",
+      "afraid",
+      "hopeful"
+    ],
+    "tone": "emboldening",
+    "notes": "For women facing intimidating people or uncertain outcomes — direct promise of God's nearness.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Deuteronomy 31:8",
+    "text": "And the Lord, he it is that doth go before thee; he will be with thee, he will not fail thee, neither forsake thee: fear not, neither be dismayed.",
+    "mood_tags": [
+      "courageous",
+      "afraid",
+      "hopeful"
+    ],
+    "tone": "grounding",
+    "notes": "God goes before — for women stepping into unknown territory.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Psalm 27:3",
+    "text": "Though an host should encamp against me, my heart shall not fear: though war should rise against me, in this will I be confident.",
+    "mood_tags": [
+      "courageous",
+      "afraid",
+      "strong"
+    ],
+    "tone": "emboldening",
+    "notes": "For women who feel surrounded or outnumbered by opposition.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "1 Corinthians 16:13",
+    "text": "Watch ye, stand fast in the faith, quit you like men, be strong.",
+    "mood_tags": [
+      "courageous",
+      "strong"
+    ],
+    "tone": "fortifying",
+    "notes": "A compact four-part commission — for women who need clear direction rather than comfort.",
+    "collection": null
+  },
+  {
+    "reference": "Matthew 11:28",
+    "text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest.",
+    "mood_tags": [
+      "weary",
+      "exhausted",
+      "restless"
+    ],
+    "tone": "settling",
+    "notes": "Menstrual phase — restful, receiving verse for women who need care more than productivity.",
+    "collection": "rest-and-peace"
+  },
+  {
+    "reference": "Galatians 5:13",
+    "text": "For, brethren, ye have been called unto liberty; only use not liberty for an occasion to the flesh, but by love serve one another.",
+    "mood_tags": [
+      "strong",
+      "worshipful"
+    ],
+    "tone": "warm",
+    "notes": "Ovulatory phase — channels high relational energy outward toward service and love.",
+    "collection": null
+  },
+  {
+    "reference": "1 Peter 5:7",
+    "text": "Casting all your care upon him; for he careth for you.",
+    "mood_tags": [
+      "anxious",
+      "overwhelmed",
+      "weary"
+    ],
+    "tone": "unburdening",
+    "notes": "Luteal phase — tender fit for increased emotional load and sensitivity before menstruation.",
+    "collection": "rest-and-peace"
+  },
+  {
+    "reference": "Psalm 139:23-24",
+    "text": "Search me, O God, and know my heart: try me, and know my thoughts: And see if there be any wicked way in me, and lead me in the way everlasting.",
+    "mood_tags": [
+      "restless",
+      "ashamed",
+      "hopeful"
+    ],
+    "tone": "self-soothing",
+    "notes": "Luteal phase — invites honesty without self-condemnation.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Psalm 42:11",
+    "text": "Why art thou cast down, O my soul? and why art thou disquieted within me? hope thou in God: for I shall yet praise him, who is the health of my countenance, and my God.",
+    "mood_tags": [
+      "despairing",
+      "weary",
+      "hopeful"
+    ],
+    "tone": "self-soothing",
+    "notes": "Luteal phase — for women who feel heavier or more self-questioning. Pairs with Psalm 42:5 already in library.",
+    "collection": "lament"
+  },
+  {
+    "reference": "John 20:16",
+    "text": "Jesus saith unto her, Mary. She turned herself, and saith unto him, Rabboni; which is to say, Master.",
+    "mood_tags": [
+      "grieving",
+      "lonely",
+      "hopeful"
+    ],
+    "tone": "intimate",
+    "notes": "Mary Magdalene — Jesus speaks her name personally in grief. For women who need to feel individually known and called.",
+    "collection": "identity"
+  },
+  {
+    "reference": "Luke 7:13",
+    "text": "And when the Lord saw her, he had compassion on her, and said unto her, Weep not.",
+    "mood_tags": [
+      "grieving",
+      "heartbroken",
+      "lonely"
+    ],
+    "tone": "tender",
+    "notes": "Widow of Nain — Jesus sees before she asks. For women who feel their grief has gone unnoticed.",
+    "collection": "lament"
+  },
+  {
+    "reference": "Esther 4:16",
+    "text": "And so will I go in unto the king, which is not according to the law: and if I perish, I perish.",
+    "mood_tags": [
+      "courageous",
+      "afraid",
+      "strong"
+    ],
+    "tone": "emboldening",
+    "notes": "Esther — courage is obedience in the presence of fear, not its absence. For women facing costly decisions.",
+    "collection": "courage-and-fear"
+  },
+  {
+    "reference": "Luke 1:45",
+    "text": "And blessed is she that believed: for there shall be a performance of those things which were told her from the Lord.",
+    "mood_tags": [
+      "hopeful",
+      "weary",
+      "anxious"
+    ],
+    "tone": "reassuring",
+    "notes": "Elizabeth — for women who have waited so long that hope feels fragile. The promise still comes.",
+    "collection": null
+  },
+  {
+    "reference": "Luke 10:42",
+    "text": "But one thing is needful: and Mary hath chosen that good part, which shall not be taken away from her.",
+    "mood_tags": [
+      "weary",
+      "overwhelmed",
+      "restless"
+    ],
+    "tone": "permission-giving",
+    "notes": "Mary of Bethany — permission to choose presence with Christ over performance.",
+    "collection": "rest-and-peace"
+  },
+  {
+    "reference": "John 8:11",
+    "text": "And Jesus said unto her, Neither do I condemn thee: go, and sin no more.",
+    "mood_tags": [
+      "ashamed",
+      "heartbroken",
+      "hopeful"
+    ],
+    "tone": "liberating",
+    "notes": "Woman caught in adultery — Jesus refuses to let shame have the final word.",
+    "collection": "shame-and-worthiness"
+  },
+  {
+    "reference": "Hosea 2:19",
+    "text": "And I will betroth thee unto me for ever; yea, I will betroth thee unto me in righteousness, and in judgment, and in lovingkindness, and in mercies.",
+    "mood_tags": [
+      "abandoned",
+      "ashamed",
+      "hopeful"
+    ],
+    "tone": "claiming",
+    "notes": "Gomer — covenant love pursuing what is broken. For women who fear brokenness is final.",
+    "collection": "shame-and-worthiness"
+  },
+  {
+    "reference": "Luke 1:38",
+    "text": "And Mary said, Behold the handmaid of the Lord; be it unto me according to thy word.",
+    "mood_tags": [
+      "afraid",
+      "overwhelmed",
+      "courageous"
+    ],
+    "tone": "grounding",
+    "notes": "Mary — surrender to a calling she did not plan. For women facing costly obedience.",
+    "collection": "motherhood"
+  },
+  {
+    "reference": "John 4:14",
+    "text": "But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life.",
+    "mood_tags": [
+      "lonely",
+      "ashamed",
+      "restless"
+    ],
+    "tone": "filling",
+    "notes": "Woman at the well — for women thirsty for something only Christ can satisfy.",
+    "collection": "identity"
   }
 ]
