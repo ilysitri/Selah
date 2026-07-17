@@ -1,8 +1,8 @@
-# Selah
+# StillHearth
 
 > *Be still, and know.*
 
-Selah is a prayer and scripture companion built for women — for the moments you actually reach for your phone. Mood-based verse discovery, a daily bite of scripture, guided spiritual paths, and a private space to trace your journey with God.
+StillHearth is a prayer and scripture companion built for women — for the moments you actually reach for your phone. Mood-based verse discovery, a daily bite of scripture, guided spiritual paths, and a private space to trace your journey with God.
 
 ---
 
